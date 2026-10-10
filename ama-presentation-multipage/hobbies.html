@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>AMA — Outside Work</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body data-slide="4">
+        <div class="noise"></div>
+        <header>
+            <div class="brand">Ask Me Anything<span>.</span></div>
+            <div class="right">
+                <span>04 / 06</span>
+                <button id="theme">☾</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="slide">
+                <div class="head">
+                    <p class="eyebrow">04 — OUTSIDE WORK</p>
+                    <h2>What do I do when I'm not working?</h2>
+                </div>
+                <div class="hobbies">
+                    <div class="feature">
+                        <h3>Hobbies</h3>
+                        <p>Nothing professional, just for fun! >< </p>
+                    </div> 
+                    <div class="pills">
+    <button data-title="Bowling" data-caption="Strike  or gutter, depends on the ball ><" data-photos="bowling.png, boling.png">
+        <i class="fa-solid fa-bowling-ball"></i> Bowling <i class="fa-solid fa-camera cam"></i>
+    </button>
+    <button data-title="Billiards" data-caption="Don't ask how. I don't know either -_-" data-photos="bilyard.mp4">
+    <span class="ball8">8</span> Billiards <i class="fa-solid fa-camera cam"></i>
+</button>
+    <button data-title="Arts" data-caption="When boredom hits me TT" data-photos="josh.png, archi.png, kaisen.png, zeke.png, hanji.png, mikasa.png, tooth.png, wolf.png">
+        <i class="fa-solid fa-palette"></i> Draw <i class="fa-solid fa-camera cam"></i>
+    </button>
+    <button data-title="Music Instrument" data-caption="Practice makes... less noise = ]" data-photos="guitkal.png">
+        <i class="fa-solid fa-guitar"></i> Play Instrument <i class="fa-solid fa-camera cam"></i>
+    </button>
+    <button data-title="Badminton" data-caption="Smashingmachine!" data-photos="bad.mp4">
+        <i class="fa-solid fa-table-tennis-paddle-ball"></i> Badminton <i class="fa-solid fa-camera cam"></i>
+    </button>
+    <button data-title="Soccer" data-caption="Tried to imitate the tree???" data-photos="soccer.png">
+        <i class="fa-solid fa-futbol"></i> Soccer <i class="fa-solid fa-camera cam"></i>
+    </button>
+</div>
+                </div>
+            </section>
+        </main>
+
+       <nav>
+    <a href="work.html">←</a>
+    <div class="bar">
+        <span style="width:50%"></span>
+    </div>
+    <a href="favorites.html">→</a>
+</nav>
+
+<div id="toast"></div>
+
+<div id="hobby-modal" class="hm" aria-hidden="true">
+    <div class="hm-card" role="dialog" aria-modal="true" aria-labelledby="hm-title">
+        <button class="hm-close" aria-label="Close">×</button>
+        <div class="hm-frame">
+    <img id="hm-img" alt="">
+    <video id="hm-video" controls playsinline preload="metadata"></video>
+    <div class="hm-empty">ADD PHOTO</div>
+</div>
+        <div class="hm-info">
+            <div>
+                <h3 id="hm-title"></h3>
+                <p id="hm-cap"></p>
+            </div>
+            <div class="hm-ctrl">
+                <button class="hm-prev" aria-label="Previous photo">‹</button>
+                <span id="hm-count"></span>
+                <button class="hm-next" aria-label="Next photo">›</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script src="hobbies.js"></script>
+    </body>
+</html>

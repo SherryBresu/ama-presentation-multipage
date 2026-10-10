@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>AMA — Favorites</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body data-slide="5">
+        <div class="noise"></div>
+        <header>
+            <div class="brand">Ask Me Anything<span>.</span></div>
+            
+            <div class="right"><span>05 / 06</span>
+                <button id="theme">☾</button>
+            </div>
+        </header>
+        
+        <main>
+    <section class="slide">
+        <div class="head">
+            <p class="eyebrow">05 — ABOUT ME</p>
+            <h2>Things I like.</h2>
+            <p>And a few things I... really don't.</p>
+        </div>
+
+        <div class="favorites">
+
+    <!-- FOOD -->
+    <div class="flip" tabindex="0">
+        <div class="flip-inner">
+            <div class="flip-face flip-front">
+                <span class="fav-emoji">🍜</span><small>FOOD</small><b>Your favorite food</b>
+            </div>
+            <div class="flip-face flip-back">
+                <img src="salmon.png" alt="My favorite food" onerror="this.style.display='none'">
+                <span class="flip-cap">Sinigang (Pink Salmon Belly)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- DRINK -->
+    <div class="flip" tabindex="0">
+        <div class="flip-inner">
+            <div class="flip-face flip-front">
+                <span class="fav-emoji">🥤</span><small>DRINK</small><b>Your favorite drink</b>
+            </div>
+            <div class="flip-face flip-back">
+                <img src="lemon.png" alt="My favorite drink" onerror="this.style.display='none'">
+                <span class="flip-cap">Cucumber & Lemon</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- POKEMONS: 4 images -->
+    <div class="flip" tabindex="0">
+        <div class="flip-inner">
+            <div class="flip-face flip-front">
+                <span class="fav-emoji">🐾</span><small>POKEMONS</small><b>Our Pokémons</b>
+            </div>
+            <div class="flip-face flip-back grid4">
+                <div class="tile"><img src="nice.png" alt="Pokémon 1" onerror="this.style.display='none'"></div>
+                <div class="tile"><img src="covi.png" alt="Pokémon 2" onerror="this.style.display='none'"></div>
+                <div class="tile"><img src="nova.png" alt="Pokémon 3" onerror="this.style.display='none'"></div>
+                <div class="tile"><img src="galore.png" alt="Pokémon 4" onerror="this.style.display='none'"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+        <div class="ld">
+    <input type="radio" name="ld" id="ld-like" checked>
+    <input type="radio" name="ld" id="ld-dislike">
+    <input type="radio" name="ld" id="ld-fun">
+
+    <div class="ld-tabs">
+        <label for="ld-like">👍 Likes</label>
+        <label for="ld-dislike">👎 Dislikes</label>
+        <label for="ld-fun">🎉 Facts</label>
+    </div>
+
+    <div class="ld-panel like">
+        <span class="chip">Sunset</span>
+        <span class="chip">Beach</span>
+        <span class="chip">Walk</span>
+        <span class="chip">Arcade</span>
+        <span class="chip">Museums</span>
+    
+    </div>
+
+    <div class="ld-panel dislike">
+        <span class="chip">Rain</span>
+        <span class="chip">Frog</span>
+        <span class="chip">Duck</span>
+        <span class="chip">Okra</span>
+        <span class="chip">Alugbati</span>
+    </div>
+
+    <div class="ld-panel fun">
+        <div class="fact"><small>FACT 01</small><p>I remember people’s surnames better than their first names.</p></div>
+        <div class="fact"><small>FACT 02</small><p>I think in pictures more than words.</p></div>
+        <div class="fact"><small>FACT 03</small><p>I somehow make simple things complicated.</p></div>
+    </div>
+</div>
+    </section>
+</main>
+        
+        <nav>
+            <a href="hobbies.html">←</a>
+            <div class="bar">
+                <span style="width:62.5%"></span>
+            </div><a href="ama.html">→</a>
+        </nav>
+        
+        <div id="toast"></div><script src="script.js"></script>
+    </body>
+    </html>
