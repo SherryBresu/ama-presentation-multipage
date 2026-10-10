@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Sherry's interactive AMA presentation">
+<title>AMA — Sherry</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-slide="1">
+<div class="noise"></div>
+<header>
+    <div class="brand">Ask Me Anything<span>.</span></div>
+    <div class="right"><span>01 / 06</span><button id="theme">☾</button></div>
+</header>
+
+<main id="presentation">
+    <section class="slide active">
+        <div class="hero"><div>
+            <p class="eyebrow">01 — INTRODUCTION</p>
+            <h1>Hi, I'm <span>Sherry.</span></h1>
+            <p class="lead">SHERRY BLESS REYES MONGADO</p>
+
+            <div class="facts">
+    <div>
+        <small>AGE</small>
+        <b>22</b>
+    </div>
+
+    <div class="fact-school">
+        <img src="logo.png" alt="School logo" onerror="this.style.display='none'">
+        <div>
+            <small>SCHOOL</small>
+            <b>Pamantasan ng Lungsod ng Muntinlupa</b>
+        </div>
+    </div>
+
+    <div>
+        <small>BIRTH MONTH</small>
+        <b>September</b>
+    </div>
+</div>
+        <p class="hint">Use ← →, Space, or swipe to navigate.</p></div>
+        <div class="profile">
+             <div class="grad-pop">🎓 I graduated with a BS in Information Technology!</div>
+            <div class="photo">
+                <img src="black.png" alt="black" onerror="this.style.display='none';this.parentElement.classList.add('placeholder')">
+                <img class="alt" src="grad.png" alt="Sherry at graduation" onerror="this.style.display='none'">
+                <span>YOUR<br>PHOTO</span>
+            </div>
+            <small>GET TO KNOW ME · 01</small>
+        </div>
+    </div>
+</section>
+</main>
+
+<nav>
+    <button id="prev" disabled>←</button>
+    <div class="bar">
+        <span style="width:12.5%"></span>
+    </div>
+    <a id="next" href="journey.html">→</a>
+</nav>
+
+<div id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
